@@ -340,6 +340,56 @@ stream over an unreliable internetwork.
 | 2         | Data Link    | 1            | Network Access | Frames             |
 | 1         | Physical     | 1            | Network Access | Bits               |
 
+## Examples of OSI Model
+
+**Application Layer (Layer 7)**<br>
+- HTTP/HTTPS (Hypertext Transfer Protocol) <br>
+- FTP (File Transfer Protocol) <br>
+- SMTP (Simple Mail Transfer Protocol) <br>
+- DNS (Domain Name System) <br>
+- IMAP/POP3 (Email protocols) <br>
+
+**Presentation Layer (Layer 6)**<br>
+- SSL/TLS encryption<br>
+- Data encoding (e.g., ASCII, EBCDIC)<br>
+- Data compression (e.g., JPEG, GIF)<br>
+- Character encoding (e.g., UTF-8)<br>
+- File formats (e.g., PDF, MP3)<br>
+
+**Session Layer (Layer 5)**<br>
+- NetBIOS (Network Basic Input/Output System)<br>
+- RPC (Remote Procedure Call)<br>
+- SIP (Session Initiation Protocol)<br>
+- PPTP (Point-to-Point Tunneling Protocol)<br>
+- Session management in web applications<br>
+
+**Transport Layer (Layer 4)**<br>
+- TCP (Transmission Control Protocol)<br>
+- UDP (User Datagram Protocol)<br>
+- TLS (Transport Layer Security)<br>
+- Flow control and error checking<br>
+- Port numbers (e.g., HTTP on port 80, HTTPS on port 443)<br>
+
+**Network Layer (Layer 3)**<br>
+- IP (Internet Protocol)<br>
+- ICMP (Internet Control Message Protocol)<br>
+- Routers<br>
+- IPv4 and IPv6 addressing<br>
+- NAT (Network Address Translation)<br>
+
+**Data Link Layer (Layer 2)**<br>
+- Ethernet (MAC addresses)<br>
+- Wi-Fi (802.11 MAC sublayer)<br>
+- PPP (Point-to-Point Protocol)<br>
+- VLANs (Virtual LANs)<br>
+- Switches<br>
+
+**Physical Layer (Layer 1)**<br>
+- Ethernet cables (e.g., Cat5, Cat6)<br>
+- Fiber optic cables<br>
+- Wi-Fi radio frequencies<br>
+- Bluetooth<br>
+
 ## Credits
 
 - [What is the OSI model?](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
